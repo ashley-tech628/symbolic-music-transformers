@@ -1,0 +1,3 @@
+# MIDI inspection and evidence auditing use only the Python standard library.
+# NumPy is required only to render new WAV listening previews.
+numpy>=1.26,<3

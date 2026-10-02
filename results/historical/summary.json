@@ -1,0 +1,183 @@
+{
+  "source_sha256": "d90250b97634d973b8ee06c70484dfa798ae0648fb19b0a28779c8ae78b10698",
+  "status": "extracted historical outputs; not rerun inference",
+  "config": {
+    "MAX_CHORALES": 220,
+    "AUG_SHIFTS": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "STEP": 0.5,
+    "MIN_STEPS": 32,
+    "MAX_STEPS": 256,
+    "SEQ_LEN": 128,
+    "BATCH": 32,
+    "D_MODEL": 256,
+    "NHEAD": 8,
+    "LAYERS": 5,
+    "FF": 1024,
+    "DROP": 0.1,
+    "MAX_REL": 128,
+    "BEAT_STEPS": 8,
+    "EPOCHS_T1": 30,
+    "EPOCHS_T2": 30,
+    "LR": 0.0003,
+    "WD": 0.01
+  },
+  "task1_final_logged_epoch": {
+    "epoch": 30,
+    "train_loss": 6.6804855187701,
+    "test_loss": 6.185734861268549,
+    "test_ppl": 485.76980589386324
+  },
+  "task2_final_logged_epoch": {
+    "epoch": 30,
+    "train_loss": 2.5867816688351954,
+    "test_loss": 4.063884276327768,
+    "test_ppl": 58.1999372365937,
+    "token_acc": 0.3175197669579692
+  },
+  "task1_displayed_table": [
+    {
+      "sample": "Real held-out Bach",
+      "test_ppl": "NaN",
+      "pc_js_vs_train": "0.156",
+      "consonance": "0.909",
+      "crossing": "0.000",
+      "large_leap": "0.015",
+      "rep4": "0.040",
+      "interval_entropy": "1.224",
+      "parallel5": "0.000",
+      "parallel8": "0.000",
+      "pitch_variety": "0.080",
+      "interval_variety": "0.028",
+      "harm_rhythm_var": "0.262"
+    },
+    {
+      "sample": "RelTransformer",
+      "test_ppl": "485.770",
+      "pc_js_vs_train": "0.071",
+      "consonance": "0.932",
+      "crossing": "0.000",
+      "large_leap": "0.023",
+      "rep4": "0.000",
+      "interval_entropy": "1.678",
+      "parallel5": "0.008",
+      "parallel8": "0.008",
+      "pitch_variety": "0.078",
+      "interval_variety": "0.029",
+      "harm_rhythm_var": "0.324"
+    },
+    {
+      "sample": "Bigram Markov",
+      "test_ppl": "486.961",
+      "pc_js_vs_train": "0.296",
+      "consonance": "0.952",
+      "crossing": "0.000",
+      "large_leap": "0.000",
+      "rep4": "0.000",
+      "interval_entropy": "1.290",
+      "parallel5": "0.000",
+      "parallel8": "0.000",
+      "pitch_variety": "0.393",
+      "interval_variety": "0.292",
+      "harm_rhythm_var": "0.333"
+    },
+    {
+      "sample": "Unigram",
+      "test_ppl": "NaN",
+      "pc_js_vs_train": "0.006",
+      "consonance": "0.912",
+      "crossing": "0.009",
+      "large_leap": "0.360",
+      "rep4": "0.000",
+      "interval_entropy": "2.766",
+      "parallel5": "0.026",
+      "parallel8": "0.011",
+      "pitch_variety": "0.099",
+      "interval_variety": "0.053",
+      "harm_rhythm_var": "0.748"
+    },
+    {
+      "sample": "Untrained (random)",
+      "test_ppl": "NaN",
+      "pc_js_vs_train": "0.039",
+      "consonance": "0.827",
+      "crossing": "0.031",
+      "large_leap": "0.037",
+      "rep4": "0.598",
+      "interval_entropy": "0.562",
+      "parallel5": "0.000",
+      "parallel8": "0.000",
+      "pitch_variety": "0.068",
+      "interval_variety": "0.044",
+      "harm_rhythm_var": "0.076"
+    }
+  ],
+  "task2_displayed_table": [
+    {
+      "sample": "Ground-truth Bach",
+      "test_acc": "NaN",
+      "frame_match": "1.000",
+      "consonance": "0.909",
+      "crossing": "0.000",
+      "large_leap": "0.015",
+      "pc_js_vs_train": "0.156",
+      "parallel5": "0.000",
+      "parallel8": "0.000",
+      "pitch_variety": "0.080",
+      "interval_variety": "0.028",
+      "harm_rhythm_var": "0.262"
+    },
+    {
+      "sample": "Seq2Seq Transformer (ours)",
+      "test_acc": "0.318",
+      "frame_match": "0.000",
+      "consonance": "0.851",
+      "crossing": "0.000",
+      "large_leap": "0.000",
+      "pc_js_vs_train": "0.237",
+      "parallel5": "0.000",
+      "parallel8": "0.000",
+      "pitch_variety": "0.049",
+      "interval_variety": "0.015",
+      "harm_rhythm_var": "0.252"
+    },
+    {
+      "sample": "Lookup baseline",
+      "test_acc": "0.053",
+      "frame_match": "0.077",
+      "consonance": "1.000",
+      "crossing": "0.000",
+      "large_leap": "0.003",
+      "pc_js_vs_train": "0.057",
+      "parallel5": "0.086",
+      "parallel8": "0.012",
+      "pitch_variety": "0.078",
+      "interval_variety": "0.023",
+      "harm_rhythm_var": "0.291"
+    },
+    {
+      "sample": "Untrained (random)",
+      "test_acc": "NaN",
+      "frame_match": "0.000",
+      "consonance": "0.687",
+      "crossing": "0.238",
+      "large_leap": "0.345",
+      "pc_js_vs_train": "0.024",
+      "parallel5": "0.010",
+      "parallel8": "0.005",
+      "pitch_variety": "0.108",
+      "interval_variety": "0.067",
+      "harm_rhythm_var": "0.515"
+    }
+  ],
+  "notes": [
+    "Displayed tables are rounded and stored as strings.",
+    "Execution counters are cleared; outputs remain saved.",
+    "No original checkpoint or per-token prediction log is included."
+  ]
+}

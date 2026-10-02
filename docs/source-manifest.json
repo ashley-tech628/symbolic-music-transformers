@@ -1,0 +1,117 @@
+{
+  "selected": "assignment2/assignment2.ipynb",
+  "selection_reason": "Saved full-size GPU run outputs, matches displayed 31.8% vs 5.3% and locally available MIDI artifacts. Execution counters were cleared.",
+  "files": [
+    {
+      "source": "claude-project/A2_5.pdf",
+      "bytes": 12791227,
+      "sha256": "999c03337ef9cc87b3e16b9806f4aac5d4b76fd79a327aebc39e73f5860b6d87"
+    },
+    {
+      "source": "claude-project/A2_6.pdf",
+      "bytes": 12807830,
+      "sha256": "c38f31fa3c7ca53235a51197504594637d5b083fa91561a90e6b0fcf2552eb53"
+    },
+    {
+      "source": "claude-project/A2_7.pdf",
+      "bytes": 12921647,
+      "sha256": "46f9c0951f34e59af93df21e4eefac932cfc14d78e14b15999650faf706982fe"
+    },
+    {
+      "source": "claude-project/A2_8.pdf",
+      "bytes": 12921945,
+      "sha256": "1318ef7f81cf64545106ed69672d24d6646613668c355f7eed1ff93e09cd4c24"
+    },
+    {
+      "source": "claude-project/A2_9.pdf",
+      "bytes": 12748929,
+      "sha256": "de66c37faa514541c39f0494d2a520ddcbb74e5aba1d38d5e138855516af9d0e"
+    },
+    {
+      "source": "claude-project/music_generation_assignment2.html",
+      "bytes": 3182477,
+      "sha256": "01bcaebd9a17ea9565e7091723d3e1145aafeceaf2fc6aaa6c2d2931ee47d0b2"
+    },
+    {
+      "source": "claude-project/music_generation_assignment2_FINAL (5).ipynb",
+      "bytes": 1512513,
+      "sha256": "c466a87baab68e8a51fbee1db91342b9c8ef8e40355a240a4a65fa69876c6462",
+      "code_cells": 28,
+      "cells_with_output": 20,
+      "executed_cells": 22
+    },
+    {
+      "source": "claude-project/music_generation_assignment2_FINAL_IMPROVED.ipynb",
+      "bytes": 89018,
+      "sha256": "38f7ac98ec54d28b9875628fabb9c67206b2b3a6c3ea2b4cace076d0c1d76b71",
+      "code_cells": 23,
+      "cells_with_output": 0,
+      "executed_cells": 0
+    },
+    {
+      "source": "claude-project/music_generation_assignment2_FINAL_v2.ipynb",
+      "bytes": 104235,
+      "sha256": "3761203ff8e3a18d4e6b8c4235e90f30bb09f9c0c1aa0c1b432c3e9ffc41cbcd",
+      "code_cells": 25,
+      "cells_with_output": 0,
+      "executed_cells": 0
+    },
+    {
+      "source": "claude-project/music_generation_assignment2_FINAL_v3.ipynb",
+      "bytes": 114911,
+      "sha256": "8e8dd8b5a01b03998b714db90eeee38fe7590e53380f6cf2568200ff377feef5",
+      "code_cells": 26,
+      "cells_with_output": 0,
+      "executed_cells": 0
+    },
+    {
+      "source": "claude-project/music_generation_assignment2_fixed.ipynb",
+      "bytes": 2111489,
+      "sha256": "fe846ae6e299d453998207e79baef266ed4db55ab13ab4a0ee1728705e0c4f1d",
+      "code_cells": 24,
+      "cells_with_output": 17,
+      "executed_cells": 19
+    },
+    {
+      "source": "claude-project/music_generation_assignment2_UPGRADED.ipynb",
+      "bytes": 72191,
+      "sha256": "90fb630a1e621ec5c85cab8a2feca6fd11343395b2c81da2db7d8562e3ad129b",
+      "code_cells": 20,
+      "cells_with_output": 0,
+      "executed_cells": 0
+    },
+    {
+      "source": "claude-project/Presentation_Script.html",
+      "bytes": 19210,
+      "sha256": "180fc36691daef274bc490ddbf339589d18efdd94e7e3e4b029600b40397d8b8"
+    },
+    {
+      "source": "claude-project/workbook.html",
+      "bytes": 3194292,
+      "sha256": "d37dccc09b3d3c91b67aa96f06b61a5a94c295d4eb861559ed5fcd2217f88e61"
+    },
+    {
+      "source": "assignment2/assignment2.ipynb",
+      "bytes": 2561505,
+      "sha256": "d90250b97634d973b8ee06c70484dfa798ae0648fb19b0a28779c8ae78b10698",
+      "code_cells": 24,
+      "cells_with_output": 22,
+      "executed_cells": 0
+    },
+    {
+      "source": "assignment2/symbolic_conditioned.mid",
+      "bytes": 1129,
+      "sha256": "b0d30f7c9478e964e679f39353d2490acaa0431a8d27ea2ab7d72e26c9ee96df"
+    },
+    {
+      "source": "assignment2/symbolic_unconditioned.mid",
+      "bytes": 2824,
+      "sha256": "a4c302908f5fa3bbc81f59b0fa623e68d9dacd34834c6f88dfd233dfa71f391c"
+    },
+    {
+      "source": "assignment2/workbook.html",
+      "bytes": 3194293,
+      "sha256": "53475ef514ccbd8ce4200d6c965f340e2fc0a0764937f6f7c2b330c49ce43034"
+    }
+  ]
+}

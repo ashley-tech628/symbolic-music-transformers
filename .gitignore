@@ -1,0 +1,14 @@
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+generated_music_suite/
+.DS_Store
+Thumbs.db
